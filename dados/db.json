@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Fulano de Tal",
+      "username": "Gabi",
+      "email": "fulano@gmail.com",
+      "address": {
+        "street": "Rua Qualquer",
+        "suite": "58",
+        "city": "Garulhos",
+        "zipcode": "07032-050"
+      },
+      "phone": "11123456789"
+    },
+    {
+      "id": 2,
+      "name": "Beltrano Silva",
+      "username": "Fael",
+      "email": "beltrano@hotmail.com",
+      "address": {
+        "street": "Rua Trezentos",
+        "suite": "64",
+        "city": "Cotia",
+        "zipcode": "06719-060"
+      },
+      "phone": "11987654321"
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "title": "novo titulo atualizado",
+      "body": "bla bla bla",
+      "userId": "1",
+      "date": "2023-04-04T23:57:59.895Z",
+      "reactions": {
+        "thumbsUp": 1,
+        "wow": 0,
+        "heart": 2,
+        "rocket": 0,
+        "coffee": 0
+      }
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Primeiro post de teste",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet posuere lorem, iaculis dictum erat. Phasellus justo arcu, euismod quis mauris sit amet, dignissim bibendum magna. Curabitur non ipsum at purus finibus auctor. Cras ac molestie leo. Phasellus neque odio, consectetur vel neque nec, molestie vulputate urna.",
+      "reactions": {
+        "thumbsUp": 3,
+        "wow": 1,
+        "heart": 1,
+        "rocket": 1,
+        "coffee": 1
+      }
+    },
+    {
+      "title": "Um post legal",
+      "body": "tralala tralala tralala e tralala",
+      "userId": 2,
+      "date": "2023-04-04T22:37:30.742Z",
+      "reactions": {
+        "thumbsUp": 5,
+        "wow": 1,
+        "heart": 6,
+        "rocket": 0,
+        "coffee": 1
+      },
+      "id": 4
+    }
+  ]
+}
